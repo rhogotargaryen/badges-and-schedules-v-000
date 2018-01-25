@@ -26,7 +26,7 @@ def printer(array)
   batch_array.each do |msg|
     puts "#{msg}"
   end
-  assign_rooms(array) = room_array
+  room_array = assign_rooms(array)
   room_array.each do |rm|
     puts "#{rm}"
   end
