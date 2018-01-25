@@ -17,7 +17,7 @@ def assign_rooms(array)
   array.reverse!
   array.each do |name|
     ur_room = av_room[0]
-    av_room.pop!
+    av_room.shift!
     nu_array.unshift("Hello, #{name}! You'll be assigned to room #{ur_room}!")
   end
   return nu_array
