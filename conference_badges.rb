@@ -30,5 +30,4 @@ def printer(array)
   room_array.each do |rm|
     puts "#{rm}"
   end
-  puts assign_rooms(array)
 end
