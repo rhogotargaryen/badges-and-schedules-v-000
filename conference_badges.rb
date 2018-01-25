@@ -18,5 +18,5 @@ def assign_rooms(array)
     ur_room = av_room.shift
     nu_array.unshift("Hello, #{name}! You'll be assigned to room #{ur_room}!")
   end
-  return nu_array
+  return nu_array.reverse
 end
