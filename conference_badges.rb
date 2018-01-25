@@ -16,6 +16,6 @@ def assign_rooms(array)
   array.each do |name|
     av_room[0] = ur_room
     av_room.unshift
-    "Hello, #{name}! You'll be assigned to room #{ur_room}!"
+    nu_array = "Hello, #{name}! You'll be assigned to room #{ur_room}!"
   end
 end
